@@ -1,9 +1,15 @@
-/*
+/* Name: Matthew Alaniz
+*  purpose: joystick code for cs120B, used two axis joystick, and used those values obtained from ADC 
+*  and compared to set point values that are to suppose to be in the center.
+
+* resources used and refered to:
  *<https://circuitdigest. com/microcontroller-projects/joystick-interfacing-with-atmega8>
+* < https://circuitdigest.com/fullimage?i=circuitdiagram_mic/AVR-Joystick-Interfacing-Ci.gif> -> schmetatic:
  *<http://sensorembedded. com/product_extra_files/JOYSTICK_MODULE.pdf>
+ * <https://components101.com/modules/joystick-module> - ebsite for specs of hoystick, 
+  * range of joystick moves from 1024 to 0.
  *
  */ 
-
 
  #include <avr/io.h>
 
